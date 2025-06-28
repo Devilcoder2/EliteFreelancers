@@ -33,7 +33,7 @@
     border-radius: 10px;
     position: absolute;
     inset: 0 0 0 0;
-    transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)) translateZ(500px);
+    transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)) translateZ(450px);
     transition: all 0.8s ease;
     backface-visibility: hidden;
     overflow: hidden; /* Add this */
@@ -48,7 +48,7 @@
 
 /* Enhanced glow effect for each color */
 .banner .slider .item:hover {
-    transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)) translateZ(540px);
+    transform: rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)) translateZ(500px);
     box-shadow: 0 0 30px currentColor;
     filter: brightness(1.2);
 }
